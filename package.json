@@ -1,0 +1,22 @@
+{
+  "name": "rag-filter-api",
+  "main": "index.ts",
+  "module": "index.ts",
+  "scripts": {
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "wrangler": "^3.67.1"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@upstash/vector": "^1.1.5",
+    "csv-parser": "^3.0.0",
+    "hono": "^4.5.2",
+    "langchain": "^0.2.11"
+  }
+}

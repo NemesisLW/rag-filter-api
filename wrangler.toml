@@ -1,0 +1,6 @@
+name = "rag-filter-api"
+compatibility_date = "2024-07-27"
+
+[vars]
+UPSTASH_VECTOR_REST_URL="https://safe-sheepdog-48475-eu1-vector.upstash.io"
+UPSTASH_VECTOR_REST_TOKEN="ABcFMHNhZmUtc2hlZXBkb2ctNDg0NzUtZXUxYWRtaW5ZV015WWpBM05qRXRNak5sWWkwME56RmtMVGs0TXpVdE1HTmlNemN4WlRrMFlqbGw="
